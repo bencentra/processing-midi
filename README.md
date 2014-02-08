@@ -6,9 +6,9 @@ Playing around with Processing and TheMidiBus for New Media Team Project. Works 
 Setup
 -----
 
-1) Enable a virtual MIDI bus as per [this article](https://www.ableton.com/en/articles/using-virtual-MIDI-buses-live/).
-2) Open GarageBand (or whatever application) and set up a track with the virtual MIDI bus as the input.
-3) Open Processing and run the sketch.
+1) Enable a virtual MIDI bus as per [this article](https://www.ableton.com/en/articles/using-virtual-MIDI-buses-live/).    
+2) Open GarageBand (or whatever application) and set up a track with the virtual MIDI bus as the input.    
+3) Open Processing and run the sketch.    
 
 midi_test_1
 -----------
