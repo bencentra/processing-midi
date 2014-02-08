@@ -13,4 +13,15 @@ Setup
 midi_test_1
 -----------
 
-Plays a note every second, nothing fancy. MIDI Output channel is hardcoded to "Virtual MIDI Bus", the name of my virtual MIDI bus.
+Plays a note every second, nothing fancy.
+
+MIDI Output channel is hardcoded to "Virtual MIDI Bus", the name of my virtual MIDI bus.
+
+midi_test_2
+-----------
+
+Plays a note on mouse click. Pitch is not calculated, but is determined by mouse position (red = 60 (C), yellow = 64 (E), green = 67 (G), blue = 72 (C)).
+
+MIDI Output channel is hardcoded to "Virtual MIDI Bus", the name of my virtual MIDI bus.
+
+
