@@ -1,7 +1,7 @@
 processing-midi
 ===============
 
-Playing around with Processing and TheMidiBus for New Media Team Project. Works on Mac OSX with GarageBand (and presumably Ableton Live).
+Playing around with [Processing](http://www.processing.org/) and [The MidiBus](http://www.smallbutdigital.com/themidibus.php) for New Media Team Project. Works on Mac OSX with GarageBand (and presumably Ableton Live).
 
 Setup
 -----
