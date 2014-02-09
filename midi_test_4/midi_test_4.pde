@@ -4,13 +4,13 @@ import themidibus.*;
 // Create a MidiBus object
 MidiBus mb;
 
-// Grid size
+// Key sizes
 int keyWidth = 60;
 int keyHeight = 200;
 int blackKeyWidth = 40;
 int blackKeyHeight = 125;
 
-// Array to hold keys
+// Arrays to hold keys
 PianoKey[] keys = new PianoKey[13];
 PianoKey[] blacks = new PianoKey[5];
 PianoKey[] whites = new PianoKey[8];
@@ -66,10 +66,10 @@ void sendMidiNote(int pitch, int delay) {
 
 // Play a major arpeggio based on a starting pitch
 void makeArpeggio(int start, int delay) {
-  sendMidiNote(start, delay);
-  sendMidiNote(start+4, delay);
-  sendMidiNote(start+7, delay);
-  sendMidiNote(start+12, delay);
+  sendMidiNote(start, delay); // First
+  sendMidiNote(start+4, delay); // Third
+  sendMidiNote(start+7, delay); // Fifth
+  sendMidiNote(start+12, delay); // Octave
 }
 
 // Draw the piano
