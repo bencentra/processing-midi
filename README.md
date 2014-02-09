@@ -30,3 +30,13 @@ midi_test_3
 Roughly calculates a MIDI pitch based on mouse position from upper left to lower right. Click to start playing, click again to stop. Also does some drawing for the hell of it.
 
 MIDI Output channel is hardcoded to "Virtual MIDI Bus", the name of my virtual MIDI bus.
+
+midi_test_4
+-----------
+
+Plays a major arpeggio based on the note played on the piano. Click to play a note, clicking multiple times (incidently) queues up several arpeggios, doesn't play them simultaneously. 
+
+MIDI Output channel is hardcoded to "Virtual MIDI Bus", the name of my virtual MIDI bus.
+
+
+
