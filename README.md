@@ -3,12 +3,16 @@ processing-midi
 
 Playing around with [Processing](http://www.processing.org/) and [The MidiBus](http://www.smallbutdigital.com/themidibus.php) for New Media Team Project. Just a few small test applications for generating MIDI data and outputting it to other programs.
 
-Works on Mac OS X with GarageBand (and presumably Ableton Live and other applicaitons). Works on Windows with the built-in Microsoft GS Wavetable Synth (as well as external applications).
+Works on Mac OS X with GarageBand (and presumably Ableton Live and other applicaitons). Works on Windows with the built-in Microsoft GS Wavetable Synth, as well as external applications.
 
 Setup
 -----
 
-The code in each sketch will require very little modification to run on your system. The one necessary change based on your setup is the output device for MidiBus objects. Here's an example: `mb = new MidiBus(this, -1, "Virtual MIDI Bus");` The third parameter in the constructor is the output device, in this case set to a device named "Virtual MIDI Bus".
+The code in each sketch will require very little modification to run on your system. The one necessary change based on your setup is the output device for MidiBus objects. Here's an example: 
+```java
+MidiBus mb = new MidiBus(this, -1, "Virtual MIDI Bus");
+```
+The third parameter in the constructor is the output device, in this case set to a device named "Virtual MIDI Bus".
 
 **Mac OS X**
 
