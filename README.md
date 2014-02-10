@@ -8,6 +8,8 @@ Works on Mac OS X with GarageBand (and presumably Ableton Live and other applica
 Setup
 -----
 
+Before running these sketches, you'll need to install The MidiBus. From Processing, go to Sketch -> Import Library -> Add Library and search for "The MidiBus." When you find it, just click the "Install" button to add it to Processing
+
 The code in each sketch will require very little modification to run on your system. The one necessary change based on your setup is the output device for MidiBus objects. Here's an example: 
 ```java
 MidiBus mb = new MidiBus(this, -1, "Virtual MIDI Bus");
